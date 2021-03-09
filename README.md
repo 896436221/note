@@ -32,7 +32,7 @@ public class SpringbootApplication {
 )
 public @interface SpringBootApplication {
 ```
-@**SpringBootConfiguration** ：spirngboot的配置类：
+@**SpringBootConfiguration**：spirngboot的配置类：
    标注在某个类上，标识是一个spirngboot的配置类；
    @**Configuration**:配置类上标注这个注解
       配置类-----配置文件;配置类也是容器中的组件
@@ -51,8 +51,8 @@ public @interface EnableAutoConfiguration {
   @**@Import({AutoConfigurationImportSelector.class})**：导入组件的选择器
       会给容器中导入自动配置类(XXXAutoConfiguration);
 配置文件
-=========
-##1、配置文件
+
+## 1、配置文件
 springboot使用全局的配置文件，配置文件名是固定的
 * application.propertie
 * application.yml
