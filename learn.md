@@ -58,13 +58,11 @@ java学习内容
 
 6. ribbon负载均衡
 
-7. feign降级断路熔断
+7. fegin降级断路熔断
 
 ## Java 基础
-
 ## Mysql+Mybatis
-
-## docker+k8s
+## Docker+K8s
 ## JVM
 ## 数据结构
 ## 算法
